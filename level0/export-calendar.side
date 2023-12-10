@@ -1,0 +1,556 @@
+{
+  "id": "ecb04a1a-c97f-479d-bfe8-0478f221a61b",
+  "version": "2.0",
+  "name": "export_calendar",
+  "url": "https://sandbox.moodledemo.net/my/",
+  "tests": [{
+    "id": "d0c4f3ef-caf6-49da-b3b1-ac99cdfc9d28",
+    "name": "Get calendar URL",
+    "commands": [{
+      "id": "8b8aeaad-e1f6-490a-aed7-9e2633839dc7",
+      "comment": "",
+      "command": "open",
+      "target": "/my/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1955161-95b2-4b77-a248-d4e02cde6a1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "826x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7dc3041-f5f7-4ce2-9b59-2a5ffd231fa0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,663.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89be7b20-c649-482a-9486-1db40288e2eb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[4]/div/div[2]/div/section/div/aside/section[2]/div/div/div[2]/div/span[2]/a",
+      "targets": [
+        ["linkText=Import or export calendars", "linkText"],
+        ["css=.footer-link:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Import or export calendars')]", "xpath:link"],
+        ["xpath=//section[@id='inst43']/div/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sandbox.moodledemo.net/calendar/managesubscriptions.php')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Import or export calendars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "863e2f84-6769-4700-af63-4a69eb4574ca",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[3]/div/div[2]/div/section/div/div[1]/div[2]/form/button",
+      "targets": [
+        ["id=single_button656f2a5a36f458", "id"],
+        ["css=#single_button656f2a5a36f458", "css:finder"],
+        ["xpath=//button[@id='single_button656f2a5a36f458']", "xpath:attributes"],
+        ["xpath=//section[@id='region-main']/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Export calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be7440f3-9d26-4564-847e-65e9ced73bf4",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_events_exportevents_all",
+      "targets": [
+        ["id=id_events_exportevents_all", "id"],
+        ["name=events[exportevents]", "name"],
+        ["css=#id_events_exportevents_all", "css:finder"],
+        ["xpath=//input[@id='id_events_exportevents_all']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_events']/div[2]/fieldset/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "892e3cc1-909b-4c3e-b8a5-1d1778cf4760",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_generateurl",
+      "targets": [
+        ["id=id_generateurl", "id"],
+        ["name=generateurl", "name"],
+        ["css=#id_generateurl", "css:finder"],
+        ["xpath=//input[@id='id_generateurl']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_group_1']/div[2]/fieldset/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7fb981-caa3-436c-8fa7-62edc8f3a7f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_period_timeperiod_weeknow",
+      "targets": [
+        ["id=id_period_timeperiod_weeknow", "id"],
+        ["name=period[timeperiod]", "name"],
+        ["css=#id_period_timeperiod_weeknow", "css:finder"],
+        ["xpath=//input[@id='id_period_timeperiod_weeknow']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_period']/div[2]/fieldset/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f99515dd-f1e0-485c-b1b7-bd1b89c1906a",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_generateurl",
+      "targets": [
+        ["id=id_generateurl", "id"],
+        ["name=generateurl", "name"],
+        ["css=#id_generateurl", "css:finder"],
+        ["xpath=//input[@id='id_generateurl']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_group_1']/div[2]/fieldset/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbb89d43-2f10-4efd-8ce4-6407ce21b360",
+      "comment": "",
+      "command": "click",
+      "target": "id=copyexporturl",
+      "targets": [
+        ["id=copyexporturl", "id"],
+        ["css=#copyexporturl", "css:finder"],
+        ["xpath=//button[@id='copyexporturl']", "xpath:attributes"],
+        ["xpath=//section[@id='region-main']/div/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Copy URL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0f9ee6f0-e646-478a-9854-bc31b7e30f51",
+    "name": "Get calendar URL (not choose time period)",
+    "commands": [{
+      "id": "43cdb3d4-b1d2-4b90-a18f-bb1433bbb2d4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65a2f2cf-4808-4358-b22d-618ecc971af8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "828x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "874a7747-3d7b-4353-9356-dc94662e28a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dashboard",
+      "targets": [
+        ["linkText=Dashboard", "linkText"],
+        ["css=#moremenu-656f2b7c47f63-navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656f2b7c47f63-navbar-nav']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sandbox.moodledemo.net/my/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "788b5f82-8a50-4128-9064-0dfb9e50cfac",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[4]/div/div[2]/div/section/div/aside/section[2]/div/div/div[2]/div/span[2]/a",
+      "targets": [
+        ["linkText=Import or export calendars", "linkText"],
+        ["css=.footer-link:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Import or export calendars')]", "xpath:link"],
+        ["xpath=//section[@id='inst43']/div/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sandbox.moodledemo.net/calendar/managesubscriptions.php')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Import or export calendars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6d6948e-e3b1-41d7-852d-65db8d66b244",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[3]/div/div[2]/div/section/div/div[1]/div[2]/form/button",
+      "targets": [
+        ["id=single_button656f2b83599f78", "id"],
+        ["css=#single_button656f2b83599f78", "css:finder"],
+        ["xpath=//button[@id='single_button656f2b83599f78']", "xpath:attributes"],
+        ["xpath=//section[@id='region-main']/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Export calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0daa25f-62b3-4133-bd55-27156d0330ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_events_exportevents_all",
+      "targets": [
+        ["id=id_events_exportevents_all", "id"],
+        ["name=events[exportevents]", "name"],
+        ["css=#id_events_exportevents_all", "css:finder"],
+        ["xpath=//input[@id='id_events_exportevents_all']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_events']/div[2]/fieldset/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75e2c003-c4db-4caf-ae68-e0f5e45f56f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_generateurl",
+      "targets": [
+        ["id=id_generateurl", "id"],
+        ["name=generateurl", "name"],
+        ["css=#id_generateurl", "css:finder"],
+        ["xpath=//input[@id='id_generateurl']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_group_1']/div[2]/fieldset/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9b777c70-503f-430a-ae09-bc85cb91410b",
+    "name": "Export",
+    "commands": [{
+      "id": "f5ab99fa-a356-44bb-a2c5-29bf48a026e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://sandbox.moodledemo.net/my/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ef293ee-262d-4c63-8f53-e0db3e7f042e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "831x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a7ddba6-ca91-4aa4-942c-e5423cc12419",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Import or export calendars",
+      "targets": [
+        ["linkText=Import or export calendars", "linkText"],
+        ["css=.footer-link:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Import or export calendars')]", "xpath:link"],
+        ["xpath=//section[@id='inst43']/div/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sandbox.moodledemo.net/calendar/managesubscriptions.php')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Import or export calendars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ee772fc-0541-44f9-b9e7-78122827fc19",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[3]/div/div[2]/div/section/div/div[1]/div[2]/form/button",
+      "targets": [
+        ["id=single_button656f2beee707f8", "id"],
+        ["css=#single_button656f2beee707f8", "css:finder"],
+        ["xpath=//button[@id='single_button656f2beee707f8']", "xpath:attributes"],
+        ["xpath=//section[@id='region-main']/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Export calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11c1a4d5-9054-4d00-9472-1c7432dc56c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_events_exportevents_all",
+      "targets": [
+        ["id=id_events_exportevents_all", "id"],
+        ["name=events[exportevents]", "name"],
+        ["css=#id_events_exportevents_all", "css:finder"],
+        ["xpath=//input[@id='id_events_exportevents_all']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_events']/div[2]/fieldset/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88176b52-8cf2-4d5b-ab5f-363fcd0f70cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_period_timeperiod_weeknow",
+      "targets": [
+        ["id=id_period_timeperiod_weeknow", "id"],
+        ["name=period[timeperiod]", "name"],
+        ["css=#id_period_timeperiod_weeknow", "css:finder"],
+        ["xpath=//input[@id='id_period_timeperiod_weeknow']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_period']/div[2]/fieldset/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c488de-3272-4487-ad39-51a66318a1ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_export",
+      "targets": [
+        ["id=id_export", "id"],
+        ["name=export", "name"],
+        ["css=#id_export", "css:finder"],
+        ["xpath=//input[@id='id_export']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_group_1']/div[2]/fieldset/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "77ab8299-cc89-4aec-a1fe-962af3e73104",
+    "name": "Export (not choose event)",
+    "commands": [{
+      "id": "f58f3224-7406-4ea4-ba80-8805cde87bce",
+      "comment": "",
+      "command": "open",
+      "target": "https://sandbox.moodledemo.net/my/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41507173-5632-4ab4-a1b4-0d5b9485c619",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "826x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41bd616c-fc28-41d6-b454-14cb25ccad69",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[4]/div/div[2]/div/section/div/aside/section[2]/div/div/div[2]/div/span[2]/a",
+      "targets": [
+        ["linkText=Import or export calendars", "linkText"],
+        ["css=.footer-link:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Import or export calendars')]", "xpath:link"],
+        ["xpath=//section[@id='inst43']/div/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sandbox.moodledemo.net/calendar/managesubscriptions.php')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Import or export calendars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81938004-e6fb-4fba-b5d6-d64a5c8231b1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[3]/div/div[2]/div/section/div/div[1]/div[2]/form/button",
+      "targets": [
+        ["id=single_button656f2c4c43e328", "id"],
+        ["css=#single_button656f2c4c43e328", "css:finder"],
+        ["xpath=//button[@id='single_button656f2c4c43e328']", "xpath:attributes"],
+        ["xpath=//section[@id='region-main']/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Export calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9d7ddab-d105-4b29-a8a3-83ac160993c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_period_timeperiod_weeknow",
+      "targets": [
+        ["id=id_period_timeperiod_weeknow", "id"],
+        ["name=period[timeperiod]", "name"],
+        ["css=#id_period_timeperiod_weeknow", "css:finder"],
+        ["xpath=//input[@id='id_period_timeperiod_weeknow']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_period']/div[2]/fieldset/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1280abce-add2-407d-aa70-a5ab3bbb2278",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_export",
+      "targets": [
+        ["id=id_export", "id"],
+        ["name=export", "name"],
+        ["css=#id_export", "css:finder"],
+        ["xpath=//input[@id='id_export']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_group_1']/div[2]/fieldset/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1a7d17cb-adec-4a2d-a3e1-1cb774afc869",
+    "name": "Get calendar URL (not choose event)",
+    "commands": [{
+      "id": "80463f01-6e73-4b4b-9ae9-e59c0480acc1",
+      "comment": "",
+      "command": "open",
+      "target": "https://sandbox.moodledemo.net/my/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aedfd6c4-526d-411c-a56d-a1e473f924fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "828x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d0353ca-6afe-4f1d-9709-6099e79d6ff7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[2]/div[4]/div/div[2]/div/section/div/aside/section[2]/div/div/div[2]/div/span[2]/a",
+      "targets": [
+        ["linkText=Import or export calendars", "linkText"],
+        ["css=.footer-link:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Import or export calendars')]", "xpath:link"],
+        ["xpath=//section[@id='inst42']/div/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sandbox.moodledemo.net/calendar/managesubscriptions.php')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Import or export calendars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65b1f408-743b-46c1-b13e-3a5f883557f8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[3]/div/div[2]/div/section/div/div[1]/div[2]/form/button",
+      "targets": [
+        ["id=single_button656f2e3fbd2ee8", "id"],
+        ["css=#single_button656f2e3fbd2ee8", "css:finder"],
+        ["xpath=//button[@id='single_button656f2e3fbd2ee8']", "xpath:attributes"],
+        ["xpath=//section[@id='region-main']/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Export calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcace06f-4b4f-458a-913d-890b609ff2e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_period_timeperiod_weeknow",
+      "targets": [
+        ["id=id_period_timeperiod_weeknow", "id"],
+        ["name=period[timeperiod]", "name"],
+        ["css=#id_period_timeperiod_weeknow", "css:finder"],
+        ["xpath=//input[@id='id_period_timeperiod_weeknow']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_period']/div[2]/fieldset/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4411eaa-21d0-4fe9-8fc9-41e5f66403d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_generateurl",
+      "targets": [
+        ["id=id_generateurl", "id"],
+        ["name=generateurl", "name"],
+        ["css=#id_generateurl", "css:finder"],
+        ["xpath=//input[@id='id_generateurl']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_group_1']/div[2]/fieldset/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "74d62637-b4ac-4b0d-8cff-04aaeecaf059",
+    "name": "Export (not choose time period)",
+    "commands": [{
+      "id": "0172cb2c-ce41-4987-8837-e1c793ab3510",
+      "comment": "",
+      "command": "open",
+      "target": "https://sandbox.moodledemo.net/my/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b655c53c-9ce0-4a5b-81cf-3d0f01ffc72f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "831x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cf3953e-1696-46f6-a528-04a4b964c87b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#inst42 > .card-body",
+      "targets": [
+        ["css=#inst42 > .card-body", "css:finder"],
+        ["xpath=//section[@id='inst42']/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "269ec24d-57a6-4988-9102-f487e336dde0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//html/body/div[2]/div[4]/div/div[2]/div/section/div/aside/section[2]/div/div/div[2]/div/span[2]/a",
+      "targets": [
+        ["linkText=Import or export calendars", "linkText"],
+        ["css=.footer-link:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Import or export calendars')]", "xpath:link"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701785224091_57']/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sandbox.moodledemo.net/calendar/managesubscriptions.php')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Import or export calendars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "050e80d6-d2d5-450d-8a02-a1dea3a43159",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[2]/div[3]/div/div[2]/div/section/div/div[1]/div[2]/form/button",
+      "targets": [
+        ["id=single_button656f2e8faa6908", "id"],
+        ["css=#single_button656f2e8faa6908", "css:finder"],
+        ["xpath=//button[@id='single_button656f2e8faa6908']", "xpath:attributes"],
+        ["xpath=//section[@id='region-main']/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Export calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abcc2a64-cad2-4094-867e-21af33a4aedb",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_events_exportevents_all",
+      "targets": [
+        ["id=id_events_exportevents_all", "id"],
+        ["name=events[exportevents]", "name"],
+        ["css=#id_events_exportevents_all", "css:finder"],
+        ["xpath=//input[@id='id_events_exportevents_all']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_events']/div[2]/fieldset/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bf5a596-6249-443f-93d5-ef8dbed7ed94",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_export",
+      "targets": [
+        ["id=id_export", "id"],
+        ["name=export", "name"],
+        ["css=#id_export", "css:finder"],
+        ["xpath=//input[@id='id_export']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_group_1']/div[2]/fieldset/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5139386f-b561-4f5e-a19b-bf70310f629b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d0c4f3ef-caf6-49da-b3b1-ac99cdfc9d28"]
+  }],
+  "urls": ["https://sandbox.moodledemo.net/", "https://sandbox.moodledemo.net/my/"],
+  "plugins": []
+}
