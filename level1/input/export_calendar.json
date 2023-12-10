@@ -1,0 +1,38 @@
+{
+    "test_1": {
+        "export_type": "Single Event",
+        "start_date": "2023-01-15",
+        "end_date": "2023-01-15",
+        "expected_result": "Expected Result for Single Event Export"
+    },
+    "test_2": {
+        "export_type": "Range of Events",
+        "start_date": "2023-01-15",
+        "end_date": "2023-01-20",
+        "expected_result": "Expected Result for Range of Events Export"
+    },
+    "test_3": {
+        "export_type": "Upcoming Events",
+        "start_date": "",
+        "end_date": "",
+        "expected_result": "Expected Result for Upcoming Events Export"
+    },
+    "test_4": {
+        "export_type": "Specific Event",
+        "start_date": "2023-02-10",
+        "end_date": "2023-02-10",
+        "expected_result": "Expected Result for Specific Event Export"
+    },
+    "test_5": {
+        "export_type": "All Events",
+        "start_date": "",
+        "end_date": "",
+        "expected_result": "Expected Result for All Events Export"
+    },
+    "test_6": {
+        "export_type": "Invalid Date Range",
+        "start_date": "2023-03-20",
+        "end_date": "2023-03-10",
+        "expected_result": "Expected Result for Invalid Date Range Export"
+    }
+}
