@@ -1,0 +1,22 @@
+{
+    "test_1": {
+        "search_criteria": "Enrolment Method",
+        "search_value": "Manual enrolments",
+        "expected_result": "Expected Result for Enrolment Method"
+    },
+    "test_2": {
+        "search_criteria": "Keyword",
+        "search_value": "Vinh",
+        "expected_result": "Expected Result for Keyword"
+    },
+    "test_3": {
+        "search_criteria": "Role",
+        "search_value": "Teacher",
+        "expected_result": "Expected Result for Role"
+    },
+    "test_4": {
+        "search_criteria": "Status",
+        "search_value": "Active",
+        "expected_result": "Expected Result for Status"
+    }
+}
