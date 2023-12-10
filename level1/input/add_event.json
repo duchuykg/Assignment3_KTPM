@@ -20,7 +20,7 @@
         },
        {
             "test_case_id": "3",
-            "event_name": "",  // Represents an error scenario: Empty event name
+            "event_name": "",  
             "event_description": "Invalid event due to missing name",
             "start_date": "2023-03-10T18:30:00",
             "end_date": "2023-03-10T20:30:00",
