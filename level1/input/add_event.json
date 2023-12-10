@@ -18,14 +18,14 @@
             "expected_result": "Success",
             "status": "Deadline"
         },
-        {
+       {
             "test_case_id": "3",
-            "event_name": "Discussion Group Meeting",
-            "event_description": "Weekly meeting for the discussion group. Bring your thoughts and questions.",
-            "event_date": "2023-03-10",
-            "event_time": "16:30",
-            "expected_result": "Success",
-            "status": "Normal"
+            "event_name": "",  // Represents an error scenario: Empty event name
+            "event_description": "Invalid event due to missing name",
+            "start_date": "2023-03-10T18:30:00",
+            "end_date": "2023-03-10T20:30:00",
+            "location": "Auditorium",
+            "expected_result": "Error: Event name is required"
         }
     ]
 }
