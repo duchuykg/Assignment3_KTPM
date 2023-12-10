@@ -19,10 +19,10 @@
         {
             "test_case_id": "3",
             "activity_type": "assignment",
-            "activity_name": "Essay Assignment",
+            "activity_name": "", 
             "activity_description": "Write an essay on a given topic",
             "deadline": "2023-12-31T23:59:59",
-            "expected_result": "Success",
+            "expected_result": "Error: Activity name is required",
             "status": "Deadline"
         }
     ]
