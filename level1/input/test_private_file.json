@@ -1,42 +1,90 @@
 [
     {
         "id": 1,
+        "description": "Upload private file (Basic flow)",
         "function": "test_private_file",
         "input": {
-            "value": "./input/file/lt5mb.mp4"
-        },
-        "expected": 1.5
+            "value": "./input/file/upload_private_file_0.1MB.docx"
+        }
     },
     {
         "id": 2,
+        "description": "Student does not want to upload anymore (Alternative flow)",
         "function": "test_private_file",
         "input": {
-            "value": "./input/file/lt10mb.docx"
-        },
-        "expected": 2.5
+            "value": "./input/file/upload_private_file_0.1MB.docx"
+        }
     },
     {
         "id": 3,
+        "description": "Student wants to create a folder (Alternative flow)",
         "function": "test_private_file",
         "input": {
-            "value": "./input/file/lt50mb.mp3"
-        },
-        "expected": 5.5
+            "value": "./input/file/upload_private_file_0.1MB.docx"
+        }
     },
     {
         "id": 4,
+        "description": "Testing the boundary value analysis technique with a file size of 0.1 byte",
         "function": "test_private_file",
         "input": {
-            "value": "./input/file/lt100mb.mp4"
-        },
-        "expected": 6
+            "value": "./input/file/upload_private_file_0.1MB.docx"
+        }
     },
     {
         "id": 5,
+        "description": "Testing the boundary value analysis technique with a file size of 0.2 byte",
         "function": "test_private_file",
         "input": {
-            "value": "./input/file/gt100mb.mp4"
-        },
-        "expected": false
+            "value": "./input/file/upload_private_file_0.2MB.docx"
+        }
+    },
+    {
+        "id": 6,
+        "description": "Testing the boundary value analysis technique with a file size of 99 MB",
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/upload_private_file_99MB.mp4"
+        }
+    },
+    {
+        "id": 7,
+        "description": "Testing the boundary value analysis technique with a file size of 100 MB",
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/upload_private_file_100MB.mp4"
+        }
+    },
+    {
+        "id": 8,
+        "description": "The Equivalence Class Partitioning technique with the invalid input of a file size that is larger than the maximum allowed size of 100 MB",
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/upload_private_file_greater_than_100MB.mp4"
+        }
+    },
+    {
+        "id": 9,
+        "description": "The Equivalence Class Partitioning technique with the valid input of a file size that is less than the maximum allowed size of 100 MB",
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/upload_private_file_0.1MB.docx"
+        }
+    },
+    {
+        "id": 10,
+        "description": "Decision Table technique with the expected outcome of showing the folder breadcumb: Files > Documents",
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/upload_private_file_0.1MB.docx"
+        }
+    },
+    {
+        "id": 11,
+        "description": "Decision Table technique with the expected outcome of not showing the folder breadcumb: Files > Documents",
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/upload_private_file_0.1MB.docx"
+        }
     }
 ]

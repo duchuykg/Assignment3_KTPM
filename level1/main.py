@@ -1,3 +1,4 @@
+from test_reply_in_forum import *
 from test_upload_private_file import *
 import json
 
