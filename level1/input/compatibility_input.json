@@ -1,0 +1,10 @@
+{
+    "test_1": {
+        "os": "macOS",
+        "browsers": ["Chrome", "Firefox", "Safari", "Edge"]
+    },
+    "test_2": {
+        "os": "Window",
+        "browsers": ["Chrome", "Edge", "Firefox"]
+    }
+}

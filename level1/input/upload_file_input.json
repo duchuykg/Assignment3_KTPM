@@ -1,0 +1,30 @@
+{
+    "test_1": {
+        "filename": "test.pdf",
+        "create folder": false,
+        "folder name": "",
+        "upload type": "drag and drop",
+        "expected": "Changes saved"
+    },
+    "test_2": {
+        "filename": "test2.pdf",
+        "create folder": true,
+        "folder name": "test",
+        "upload type": "drag and drop",
+        "expected": "The file test2.pdf is too large. The maximum size you can upload is 100MB."
+    },
+    "test_3": {
+        "filename": "test3.ext",
+        "create folder": true,
+        "folder name": "",
+        "upload type": "drag and drop",
+        "expected": "Cannot create folder"
+    },
+    "test_4": {
+        "filename": "test3.ext",
+        "create folder": false,
+        "folder name": "",
+        "upload type": "select",
+        "expected": "The file test3.ext has invalid extension"
+    }
+}
