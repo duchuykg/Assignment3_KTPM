@@ -1,0 +1,31 @@
+{
+    "test_cases": [
+        {
+            "test_case_id": "1",
+            "event_name": "Webinar on Machine Learning",
+            "event_description": "Join us for an informative webinar on the fundamentals of machine learning.",
+            "event_date": "2023-01-15",
+            "event_time": "14:00",
+            "expected_result": "Success",
+            "status": "Normal"
+        },
+        {
+            "test_case_id": "2",
+            "event_name": "Project Submission Deadline",
+            "event_description": "Deadline for submitting final projects. Ensure all submissions are complete.",
+            "event_date": "2023-02-28",
+            "event_time": "23:59",
+            "expected_result": "Success",
+            "status": "Deadline"
+        },
+        {
+            "test_case_id": "3",
+            "event_name": "Discussion Group Meeting",
+            "event_description": "Weekly meeting for the discussion group. Bring your thoughts and questions.",
+            "event_date": "2023-03-10",
+            "event_time": "16:30",
+            "expected_result": "Success",
+            "status": "Normal"
+        }
+    ]
+}
