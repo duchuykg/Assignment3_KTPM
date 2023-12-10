@@ -1,0 +1,29 @@
+{
+    "test_cases": [
+        {
+            "test_case_id": "1",
+            "activity_type": "quiz",
+            "activity_name": "Math Quiz",
+            "activity_description": "Test your math skills with this quiz",
+            "expected_result": "Success",
+            "status": "Normal"
+        },
+        {
+            "test_case_id": "2",
+            "activity_type": "forum",
+            "activity_name": "Discussion Forum",
+            "activity_description": "Engage in discussions on various topics",
+            "expected_result": "Success",
+            "status": "Normal"
+        },
+        {
+            "test_case_id": "3",
+            "activity_type": "assignment",
+            "activity_name": "Essay Assignment",
+            "activity_description": "Write an essay on a given topic",
+            "deadline": "2023-12-31T23:59:59",
+            "expected_result": "Success",
+            "status": "Deadline"
+        }
+    ]
+}
