@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/lt5mb.mp4"
+        },
+        "expected": 1.5
+    },
+    {
+        "id": 2,
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/lt10mb.docx"
+        },
+        "expected": 2.5
+    },
+    {
+        "id": 3,
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/lt50mb.mp3"
+        },
+        "expected": 5.5
+    },
+    {
+        "id": 4,
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/lt100mb.mp4"
+        },
+        "expected": 6
+    },
+    {
+        "id": 5,
+        "function": "test_private_file",
+        "input": {
+            "value": "./input/file/gt100mb.mp4"
+        },
+        "expected": false
+    }
+]
