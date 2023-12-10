@@ -1,0 +1,72 @@
+{
+    "test_1": {
+        "status": "Normal",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_2": {
+        "status": "Exhausted",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_3": {
+        "status": "Deadline",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_4": {
+        "status": "Normal",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_5": {
+        "status": "Normal",
+        "Alternative": "Cancel",
+        "expected": true
+    },
+    "test_6": {
+        "status": "Normal",
+        "Alternative": "Re-do",
+        "expected": true
+    },
+    "test_7": {
+        "status": "Normal",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_8": {
+        "status": "Normal",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_9": {
+        "status": "Normal",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_10": {
+        "status": "Exhausted",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_11": {
+        "status": "Normal",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_12": {
+        "status": "Exhausted",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_13": {
+        "status": "Normal",
+        "Alternative": "",
+        "expected": true
+    },
+    "test_14": {
+        "status": "Exhausted",
+        "Alternative": "",
+        "expected": true
+    }
+}
